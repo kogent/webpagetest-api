@@ -1,4 +1,4 @@
-FROM node:boron
+FROM node:11.9.0-slim
 
 # Create app directory
 RUN mkdir -p /usr/src/app
